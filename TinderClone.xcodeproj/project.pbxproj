@@ -15,6 +15,8 @@
 		13759E0C2C1CB149009B029B /* TinderCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13759E0B2C1CB149009B029B /* TinderCloneUITests.swift */; };
 		13759E0E2C1CB149009B029B /* TinderCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13759E0D2C1CB149009B029B /* TinderCloneUITestsLaunchTests.swift */; };
 		13759E272C1CC99D009B029B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13759E262C1CC99D009B029B /* MainTabView.swift */; };
+		13759E2A2C1CCD3D009B029B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13759E292C1CCD3D009B029B /* CardView.swift */; };
+		13759E2E2C1CD1C9009B029B /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13759E2D2C1CD1C9009B029B /* UserInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		13759E0B2C1CB149009B029B /* TinderCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneUITests.swift; sourceTree = "<group>"; };
 		13759E0D2C1CB149009B029B /* TinderCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		13759E262C1CC99D009B029B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		13759E292C1CCD3D009B029B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		13759E2D2C1CD1C9009B029B /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,7 @@
 		13759E1F2C1CC6C1009B029B /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				13759E282C1CCD2E009B029B /* Views */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -208,6 +213,15 @@
 			children = (
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		13759E282C1CCD2E009B029B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13759E292C1CCD3D009B029B /* CardView.swift */,
+				13759E2D2C1CD1C9009B029B /* UserInfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,7 +356,9 @@
 			files = (
 				13759DF32C1CB13F009B029B /* ContentView.swift in Sources */,
 				13759DF12C1CB13F009B029B /* TinderCloneApp.swift in Sources */,
+				13759E2A2C1CCD3D009B029B /* CardView.swift in Sources */,
 				13759E272C1CC99D009B029B /* MainTabView.swift in Sources */,
+				13759E2E2C1CD1C9009B029B /* UserInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
